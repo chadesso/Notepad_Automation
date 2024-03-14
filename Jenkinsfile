@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        FILE_PATH = 'C:\\jenkins\\workspace\\UIPath_Jenkins_Pipeline_main\\Jenkins_Library_2.1.0.13.nupkg'
+        FILE_PATH = 'C:\\jenkins\\workspace\\UIPath_Jenkins_Pipeline_main\\Bitbucket_Jenkins_UiPath_Package.1.0.14'
     }
     stages {
         stage('Upload Package') {
